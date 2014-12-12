@@ -13,7 +13,5 @@
 
 Route::get('/', function()
 {
-	return View::make('Home');
+	return View::make('MA20');
 });
-
-Route::get('admin', 'adminController@index');
