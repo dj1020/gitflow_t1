@@ -11,6 +11,9 @@
 |
 */
 
+/**
+ * Add MA20 feature document here.
+ */
 Route::get('/', function()
 {
 	return View::make('MA20');
