@@ -16,7 +16,4 @@ Route::get('/', function()
 	return View::make('Home');
 });
 
-Route::get('admin', function ()
-{
-    return View::make('Admin');
-});
+Route::get('admin', 'adminController@index');
